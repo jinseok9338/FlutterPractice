@@ -21,7 +21,7 @@ class Directory extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => const FeedScreen(),
+                      builder: (_) => pages[idx].page,
                     ),
                   )
                 },
