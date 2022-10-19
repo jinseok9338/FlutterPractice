@@ -1,3 +1,4 @@
+import 'FurnitureUI/main.dart';
 import 'coffeeUI/main.dart';
 import 'instagram/main_page.dart';
 
@@ -13,5 +14,6 @@ class Page {
 
 final List<Page> pages = [
   Page(page: FeedScreen(), title: "Instagram"),
-  Page(page: CoffeeUIMain(), title: "CoffeeUI")
+  Page(page: CoffeeUIMain(), title: "CoffeeUI"),
+  Page(page: FurnitureUI(), title: "FurnitureUI")
 ];
